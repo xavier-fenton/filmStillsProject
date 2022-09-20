@@ -16,3 +16,13 @@ html, body {
  z-index: -5;
 }
 
+.next{
+  height: 50px;
+  width: 50px;
+
+}
+.nextButton{
+  position: fixed;
+  top: 250px;
+  left: 1200px;
+}

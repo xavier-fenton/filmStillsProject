@@ -11,7 +11,9 @@ function showTitles() {
 export default function ScrollList() {
   return (
     <>
-      <button onClick={showTitles}>show/hide</button>
+      <button className="buttonPosition" onClick={showTitles}>
+        show/hide
+      </button>
       <div id="titles">
         <img src="/images/Titles/enterthevoid.png" alt="placeholder" />
         <br></br>

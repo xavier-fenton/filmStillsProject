@@ -1,12 +1,14 @@
 import React from 'react'
+import Images from './Images'
+
+import ScrollList from './ScrollList'
 
 const App = () => {
   return (
-    <div className="bg">
-      <h1>FILL IMAGE</h1>
-      {/* <img className="bg" alt="screen" /> */}
-      <div></div>
-    </div>
+    <>
+      <Images />
+      <ScrollList />
+    </>
   )
 }
 

@@ -1,19 +1,18 @@
-body, html {
-  height: 100%;
-}
-h1{
-  color: purple;
-}
-.bg {
-  /* The image used */
-  background-image: url("../images/screen1.png");
 
-  /* Full height */
-  height: 100vh;
-  width: 100vw;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+html, body {
+   height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+
+
+.overflow{
+  position: fixed;
+ z-index: -5;
+}
+

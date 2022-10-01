@@ -41,7 +41,7 @@
 
     "lightgallery": "^2.6.1",
 
-    "react-router-dom": "^6.4.0",
+    "react-router-dom": "^6.4.0"
 
   },
   "devDependencies": {

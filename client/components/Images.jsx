@@ -1,17 +1,10 @@
 import React from 'react'
-
-function handleClick() {
-  console.log('hit')
-}
+//state that changes image src, will be a function that will be passed down to the changeimagebutton component as props
+//research more on this
 export default function Images() {
   return (
     <>
       <img className="overflow" src="/images/tak.jpg" alt="tak"></img>
-      <div className="nextButton">
-        <button className="next" onClick={handleClick}>
-          next
-        </button>
-      </div>
     </>
   )
 }
